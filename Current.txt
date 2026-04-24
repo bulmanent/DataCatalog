@@ -1,0 +1,46 @@
+Deployed to dev master 
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-algonomy-pub/pullrequests?_a=mine
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-adc-card-creation-pub/pullrequest/1992
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-adc-card-creation-sub/pullrequests?_a=mine
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-ecm-search-management-pub/pullrequests?_a=mine
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-ecm-search-management-sub/pullrequests?_a=mine
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-identity-extract/pullrequests?_a=mine
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-gdpr-anon-pub/pullrequests?_a=mine
+ 
+
+
+Wait for rob
+
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-algonomy-sub/pullrequests?_a=mine
+https://dev.azure.com/mrpi-consumer-data/it-data/_git/mrpi-cdwh-fnc-gdpr-anon-sub/pullrequests?_a=mine
+
+
+GDPR anon functions still need work
+
+
+connection string 
+Driver={ODBC Driver 18 for SQL Server};Server=tcp:mrpi-cdwh-dev-sqlsvr-01.database.windows.net,1433;Database=mrpi_cdwh_dev_oltp_sqldb_01;Uid=mrpicdwhsqlbatch;Pwd=rF^7qwiyKbk7Gh;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
+
+
+Driver={ODBC Driver 18 for SQL Server};Server=tcp:mrpi-cdwh-dev-sqlsvr-01.database.windows.net,1433;Database=mrpi_cdwh_dev_sqldw_01;Uid=mrpicdwhsqlbatch;Pwd=rF^7qwiyKbk7Gh;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;
+
+keyvalue
+@Microsoft.KeyVault(SecretUri=https://mrpi-cdwh-dev-kyv-01.vault.azure.net/secrets/db--mrpicwholtpsqldb--connectionstring-odbc/)
+
+@Microsoft.KeyVault(SecretUri=https://mrpi-cdwh-dev-kyv-01.vault.azure.net/secrets/db--mrpicwholtpsqldb--connectionstring-odbc/)
+
+@Microsoft.KeyVault(SecretUri=https://mrpi-cdwh-dev-kyv-01.vault.azure.net/secrets/db--mrpicwhsqldb--connectionstring-odbc/)
+
+
+Card creation - not updated in CLI - 3.12 in stack, env var changed to 18 - tested and run - ??
+
+db--mrpicwhsqldb--connectionstring-odbc
+
+
+mrpi_cdwh_dev_sqldw_01
+
+
+
+
+
+

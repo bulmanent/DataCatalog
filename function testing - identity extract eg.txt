@@ -1,0 +1,21 @@
+Identity extract testing - 
+
+
+so go into identity extract on portal - into http_trigger_count
+
+test/run
+
+paste below into body and run - to at least test if the function runs
+
+{
+	"batch_id": "2603",
+	"process_id": "4",
+	"last_updated": "2026-01-01 00:00:00.000"
+}
+
+- to change the python version on the fly in portal (eg to test) in settings/configuration - stack settings - change version of portal
+
+for functions you can create a temp branch from your feature branch and build - that becomes the active one that run.
+
+to view logs for the run - go to invocations
+
